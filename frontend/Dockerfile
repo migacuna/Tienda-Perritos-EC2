@@ -6,4 +6,4 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copiar archivos estáticos
 COPY . /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 8090
